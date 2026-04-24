@@ -5,20 +5,20 @@
 }
 
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: #f0ebf8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000000;
+    color: #333;
 }
 
 p, label {
-   color: rgb(0, 0, 0);
+    color: #444;
 }
 
 input {
     border: none;
-    border-bottom: 1px solid #76767a;
+    border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
 
@@ -33,16 +33,16 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: #14006d;
-}
+    background-color: #001aff;
+} 
 
 .cabecalho h3 {
-    color: #f0f0f0f6;
+    color: #fff;
     margin-top: 0;
 }
 
 .form-container {
-    background-color: #02ee21;
+    background-color: #fdfdfd;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -50,17 +50,75 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #06fc3b;
+    border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
 
 .form-header p{
-    color: #ffffff;
-    border-bottom: 2px solid #48fd00;
+    color: #00ff37;
+    border-bottom: 2px solid #06ff44;
     width: 100%;
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
     height: 45px;
     list-style: 45px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio {
+    color: #d80835;
+}
+
+.caixaInputs {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.caixaOpicional {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.caixaOpicional li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    background-color: #00ff6a;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0,5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: #00ff88;
+    border-color: #09ff00;
+}
+
+hr {
+    margin-top: 20px;
+    height: 3px;
+    background: linear-gradient(to right, transparent,#673ab7, transparent);
+    margin: 20px 0;
 }
